@@ -1,7 +1,5 @@
 ---
-title: "Introducción a IRT"
-author: "Cristian Brotfeld"
-date: "`r format(Sys.time(), '%d-%m-%Y')`"
+title: "Intro a IRT"
 output: github_document
 ---
 
@@ -48,13 +46,3 @@ empirical_plot(items[,1:30], which.items = 1:30, smooth = T)
 El modelo de teoría de respuesta al ítem busca explicar, concretamente, la probabilidad de que, dado un nivel de habilidad, uno observe una respuesta correcta en un ítem. Esta formula se escribe de la siguiente manera:
 
 $$ p(x=1|\theta,\delta) = \frac{e^{(\theta-\delta)}}{1+e^{(\theta-\delta)}}  $$
-
-
-
-
-
-
-
-
-
-
